@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <title>Minesweeper</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <script
+                src="https://code.jquery.com/jquery-3.3.1.min.js"
+                integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+                crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+</head>
+<body>
+  <p> Welcome to Minesweeper!</p>
+  <div class = "size">
+    <form>
+        width: <input class = 'in_width' id = 'input_text' name='new_field' type='text' value = 8>
+        height: <input class = 'in_height' id = 'input_text' name='new_field' type='text' value= 8>
+        number of mines: <input class = 'in_mines' id = 'input_text' name='new_field' type='text' value= 10>
+
+    </form>
+    
+    <div>
+        <button class='submit'>submit</button>
+      </div>
+  </div>
+
+  <div class = "restart">
+    <button id= "restart">Click to start!</button>
+  </div>
+  <div class = "change" id = "high_score">
+  </div>
+  <div class = "tags">
+    <p>Bombs Left: </p>
+    <p id = "bombs_remain"></p>
+
+  </div>
+  <div class = "tags">
+      <h1><time>00:00</time></h1>
+  </div>
+  <div class="mine_field"> </div>
+</body>
+</html>

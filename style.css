@@ -1,0 +1,61 @@
+body{
+  background-color: #4B9CD3;
+  text-align: center;
+}
+.mines{
+  width: 20px;
+  height: 20px;
+  border: 2%;
+  color:black;
+  border-color: black;
+  background-color: white;
+  border-radius: 0px;
+  float: left;
+  position: relative;
+  padding: 1px;
+}
+
+.score_board{
+  float:left;
+}
+
+td{
+  padding: 0px;
+}
+table {
+  border-spacing: 0px 0px;
+  margin: 0px 0px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+.restart{
+  margin-top: 30px;
+}
+button{
+  background-color: #FFEBCD;
+  color: #4D2121;
+  border-radius: 5px;
+}
+
+input{
+  background-color: #FFEBCD;
+  width: 20px;
+  color: #4D2121;
+  border-radius: 5px;
+}
+.size{
+  display: flex;
+  justify-content: center;
+}
+form > input{
+  margin-right: 10px;
+}
+
+body > p{
+  font-size: 25px;
+}
+.tags{
+  margin-right:5%
+}
+
